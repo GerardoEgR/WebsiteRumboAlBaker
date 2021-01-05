@@ -109,8 +109,6 @@ img::-moz-selection{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  /* margin-bottom: 50px;
-  margin-top: 50px; */
  }
 .separador p{
   height: 100%;
@@ -259,11 +257,12 @@ img::-moz-selection{
 }
 
 #contact{
-    background-image: url(../img/imgContact.jpg);
+    background-image: linear-gradient(to top, rgba(5, 5, 5, 0.2) 0%, rgba(10, 10, 10, 0.2) 100%), url(../img/imgContact.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(160, 182, 198, 0.5);
 }
+
 
 @media (min-width:768px){
 
@@ -298,4 +297,24 @@ img::-moz-selection{
 .btn-primary:active,.btn-primary:focus{
   -webkit-box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
   box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
+}
+
+
+.container .row .col-lg-4 .bxs-phone{
+  font-size: 4rem;
+  color: #ee4b28;
+}
+
+.container .row .col-lg-4 .cont{
+  color: #ee4b28;
+}
+
+.container .row .col-lg-4 .bxl-facebook{
+  font-size: 4rem;
+  color: #ee4b28;
+}
+
+.container .row .col-lg-4 .bx-mail-send{
+  font-size: 4rem;
+  color: #ee4b28;
 }
